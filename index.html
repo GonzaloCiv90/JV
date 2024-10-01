@@ -61,7 +61,7 @@
                     <a class="nav-link active text-light" aria-current="page" href="#serv-section">Nuestros servicios</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active text-light" aria-current="page" href="#">Contactos</a>
+                    <a class="nav-link active text-light" aria-current="page" href="#contac-section">Contactos</a>
                   </li>
                   <li class="nav-item">
                     <a href="https://www.google.com/maps/place/JV+Refrigeraci%C3%B3n/@-31.4002867,-64.2424835,14.5z/data=!4m6!3m5!1s0x9432998f067e24d9:0x835ad28674ce15c7!8m2!3d-31.3981294!4d-64.2417874!16s%2Fg%2F11qr6l7ghb?entry=ttu&g_ep=EgoyMDI0MDkxMS4wIKXMDSoASAFQAw%3D%3D"><i class="fa-solid fa-location-dot"></i> Quebracho Herrado 11, Córdoba</a>
@@ -90,7 +90,7 @@
                 <section class="text-white d-flex flex-column justify-content-center align-items-center h-100 ps-2">
                     <h1>Servicios de Climatización<br>Instalación Profesional de Aires Acondicionados para Hogar e Industria </h1>
                     <div class="mt-3">
-                      <button class = "btn btn-light">Contactanos</button>
+                      <a href="#contac-section" class="btn btn-primary">Contáctanos</a>
                     </div>
                 </section>
               </div>
@@ -103,7 +103,7 @@
                <p>¿Quiénes Somos?</p>
                <p>Somos una empresa dedicada a brindar soluciones innovadoras en el sector de la climatización. Nuestro equipo está formado por profesionales expertos en la instalación de aires acondicionados tanto para hogares como para industrias. Nuestro compromiso es ofrecer un servicio de calidad y adaptado a las necesidades de cada cliente.</p>
                <div class="d-flex justify-content-center align-items-center mt-3">
-                <a href="#contacto" class=" btn btn-primary">Contáctanos</a>
+                <a href="#contac-section" class=" btn btn-primary">Contáctanos</a>
                </div>
              </div>
             <div class="col-md-6 mt-3">
@@ -119,10 +119,10 @@
             <div class="row row-cols-1 row-cols-md-2 g-4">
               <div class="col">
                 <div class="card">
-                  <img src="..." class="card-img-top" alt="...">
+                  <img src="assets/carousel3.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <h2 class="card-title">Residencial</h2>
+                    <p class="card-text">MULTISPLIT INVERTER.<br>SPLITS FRÍO / CALOR</p>
                   </div>
                 </div>
               </div>
@@ -166,6 +166,45 @@
               </div>
               <div class="col">
                 <i class="bi bi-thermometer-sun"></i>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="contac-section">
+          <div class="container">
+            <h2 class="mb-4">Contáctanos</h2>
+            <div class="row justify-content-center">
+              <div class="col-md-8">
+                <form>
+                  <div class="mb-3">
+                    <label for="name" class="form-label">Nombre completo</label>
+                    <input type="text" class="form-control" id="name" placeholder="Ingresa tu nombre completo" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="email" class="form-label">Correo electrónico</label>
+                    <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="subject" class="form-label">Asunto</label>
+                    <input type="text" class="form-control" id="subject" placeholder="Asunto del mensaje" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="message" class="form-label">Mensaje</label>
+                    <textarea class="form-control" id="message" rows="5" placeholder="Escribe tu mensaje" required></textarea>
+                  </div>
+                  <div class="d-grid">
+                    <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <!-- Sección del mapa de Google Maps -->
+            <div class="row mt-5 justify-content-center">
+              <div class="col-md-10">
+                <h3 class="mb-4">Nuestra ubicación</h3>
+                <div class="map-responsive">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d436009.1195590487!2d-64.43608547696743!3d-31.37770453677496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d-31.3458626!2d-63.995903999999996!4m5!1s0x9432998f067e24d9%3A0x835ad28674ce15c7!2sjv%20refrigeracion!3m2!1d-31.3981294!2d-64.24178739999999!5e0!3m2!1ses!2sar!4v1727822922239!5m2!1ses!2sar" width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen="" loading="lazy""></iframe>
+                </div>
               </div>
             </div>
           </div>

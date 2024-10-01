@@ -1,3 +1,19 @@
+/*Primera fuente*/
+@font-face {
+  font-family: 'MiFuente'; /* Nombre que usarás para referenciar la fuente */
+  src: url('font/varien.otf') format('opentype'); /* URL relativa */
+  font-weight: normal; /* Peso de la fuente */
+  font-style: normal; /* Estilo de la fuente */
+}
+
+/* Segunda fuente */
+@font-face {
+  font-family: 'SegundaFuente'; /* Nombre para referenciar la segunda fuente */
+  src: url('font/UNDERRATED-UltraBold\ Personal\ Use.otf') format('opentype'); /* URL relativa a la segunda fuente */
+  font-weight: normal;
+  font-style: normal;
+}
+
 .fixed-top{
   background-color: #0F34AB;
 }
@@ -30,11 +46,15 @@
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.502);
     z-index: 1;
+    font-family: "SegundaFuente";
   }
 
 .overlay h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
+.overlay a{
+  font-family: "MiFuente";
+}
 
 #info-section{
   padding-top: 4rem; /* Espaciado superior */
@@ -43,6 +63,11 @@
   min-height: 100vh; /* Ocupa al menos el 100% de la altura de la ventana */
   display: flex; /* Usamos flexbox para alinear elementos */
   align-items: center; /* Centra verticalmente */
+  font-family: "SegundaFuente";
+}
+
+#info-section a{
+  font-family: "MiFuente";
 }
  
 .container {
@@ -55,10 +80,27 @@
   background-color: #0F34AB; /* Color de fondo */
   min-height: 100vh; /* Ocupa al menos el 100% de la altura de la ventana */
   display: flex; /* Usamos flexbox para alinear elementos */
+  align-items: center;
   color: white;
+  font-family: 'MiFuente';
 }
 
 #serv-section .col{
-  font-size: 2rem;
-  margin-top: 1rem;
+  font-size: 1rem;
+  margin-top: 2rem;
+  color: #0F34AB;
+}
+#serv-section .col i{
+  color: white;
+  font-size: 1.8rem;
+}
+
+#contac-section{
+  padding-top: 4rem; /* Espaciado superior */
+  background-color: #0F34AB; /* Color de fondo */
+  min-height: 100vh; /* Ocupa al menos el 100% de la altura de la ventana */
+  display: flex; /* Usamos flexbox para alinear elementos */
+  align-items: center;
+  color: white;
+  font-family: 'MiFuente';
 }
