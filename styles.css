@@ -112,6 +112,61 @@ main{
   font-family: 'MiFuente';
 }
 
+.whatsapp-float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 20px;
+  right: 20px;
+  background-color:#007bff;
+  color: #25d366;;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+}
+
+.whatsapp-float i {
+  margin-top: 15px;
+}
+
+.phone-float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 100px; /* Para que no se superponga con el botón de WhatsApp */
+  right: 20px;
+  background-color:#007bff ;
+  color: white;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+}
+
+.phone-float i {
+  margin-top: 15px;
+}
+
+
 footer{
   background-color: #0F34AB;
+}
+
+@media (min-width: 900px) {
+  .google-map-link {
+    margin-left: 365px; /* Mueve el enlace hacia la derecha */
+  }
+
+  .overlay h1 {
+    text-justify: auto;
+    margin: 4rem;
+  }
+  
+  footer{
+    text-align: center;
+  }
+
 }
