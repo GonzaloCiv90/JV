@@ -81,7 +81,8 @@
                             <a href="https://wa.me/5493513413411" target="_blank" class="text-white me-3"><i class="bi bi-whatsapp"></i></a>
                         </div>
                         <div class="d-flex align-items-center google-map-link">
-                            <a href="https://www.google.com/maps/place/JV+Refrigeraci%C3%B3n/@-31.4002867,-64.2424835,14.5z/data=!4m6!3m5!1s0x9432998f067e24d9:0x835ad28674ce15c7!8m2!3d-31.3981294!4d-64.2417874!16s%2Fg%2F11qr6l7ghb?entry=ttu&g_ep=EgoyMDI0MDkxMS4wIKXMDSoASAFQAw%3D%3D" class=" map nav-link text-light">
+                            <a href="https://www.google.com/maps/place/JV+Refrigeraci%C3%B3n/@-31.4002867,-64.2424835,14.5z/data=!4m6!3m5!1s0x9432998f067e24d9:0x835ad28674ce15c7!8m2!3d-31.3981294!4d-64.2417874!16s%2Fg%2F11qr6l7ghb?entry=ttu&g_ep=EgoyMDI0MDkxMS4wIKXMDSoASAFQAw%3D%3D"
+                                class=" map nav-link text-light" target="_blank">
                                 <i class="fa-solid fa-location-dot"></i> Quebracho Herrado 11, Córdoba
                             </a>
                         </div>
@@ -122,7 +123,7 @@
                         <p>¿Quiénes Somos?</p>
                         <p>Somos una empresa dedicada a brindar soluciones innovadoras en el sector de la climatización. Nuestro equipo está formado por profesionales expertos en la instalación de aires acondicionados tanto para hogares como para industrias. Nuestro compromiso es ofrecer un servicio de calidad y adaptado a las necesidades de cada cliente.</p>
                         <div class="d-flex justify-content-center align-items-center mt-3">
-                            <a href="#contac-section" class=" btn btn-primary">Contáctanos</a>
+                            <a href="#contac-section" class=" btn btn-primary mt-4">Contáctanos</a>
                         </div>
                     </div>
                     <div class="col-md-6 mt-3">
@@ -137,38 +138,42 @@
                 <p>¡Siempre listos!</p>
                 <div class="row row-cols-1 row-cols-md-2 g-4">
                     <div class="col">
-                        <div class="card">
-                            <img src="assets/carousel3.jpg" class="card-img-top" alt="...">
+                        <div class="card bg-primary h-100" style="--bs-bg-opacity: .95;">
+                            <img src=" assets/card residencial.jpg" class="card-img-top w-100 img-fluid" alt="aire acondicionado residencial">
                             <div class="card-body">
-                                <h2 class="card-title">Residencial</h2>
+                                <img src="assets/AA_RESIDENCIAL.png" width="50" height="auto">
+                                <h2 class="card-title mt-2">Residencial</h2>
                                 <p class="card-text">MULTISPLIT INVERTER.<br>SPLITS FRÍO / CALOR</p>
                             </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card">
-                            <img src="..." class="card-img-top" alt="...">
+                        <div class="card bg-primary h-100" style="--bs-bg-opacity: .95;">
+                            <img src=" assets/card industrial.jpg" class="card-img-top w-100 img-fluid" alt="Imagemn de servicio industrial">
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <img src="assets/AA_INDUSTRIAL.png" width="50" height="auto">
+                                <h2 class="card-title mt-2">Industrial</h2>
+                                <p class="card-text">Piso Techo<br>Baja silueta<br>Cassette</p>
                             </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card">
-                            <img src="..." class="card-img-top" alt="...">
+                        <div class="card bg-primary h-100" style="--bs-bg-opacity: .95;">
+                            <img src=" assets/card comercial.jpg" class="card-img-top w-100 img-fluid" alt="Imagenb servicio comercial">
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                                <img src="assets/AA_COMERCIAL.png" width="50" height="auto">
+                                <h2 class="card-title mt-2">Comercial</h2>
+                                <p class="card-text">Piso Techo<br>Baja silueta<br>Cassette</p>
                             </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card">
-                            <img src="..." class="card-img-top" alt="...">
+                        <div class="card bg-primary h-100" style="--bs-bg-opacity: .95;">
+                            <img src=" assets/card camara.jpg" class="card-img-top" alt="Cámara frigorífica">
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <img src="assets/CAMARA FRIGORIFICA.png" width="50" height="auto">
+                                <h2 class="card-title mt-2">Cámara Frigorífica</h2>
+                                <p class="card-text">Instalación, service y mantenimiento.</p>
                             </div>
                         </div>
                     </div>
@@ -189,7 +194,7 @@
                 </div>
             </div>
         </section>
-        <section id="contac-section">
+        <section id="contac-section" class="pb-5">
             <div class="container">
                 <h2 class="mb-4">Contáctanos</h2>
                 <div class="row">
@@ -245,36 +250,21 @@
 
     </main>
 
-    <footer class="text-white pt-5">
-        <div class="container">
-            <div class="row g-4">
+    <footer class="text-white pt-5 bg-primary p-2" style="--bs-bg-opacity: .95;">
+        <div class="container text-center">
+            <div class="row justify-content-between">
                 <!-- Sección de información de la empresa -->
-                <div class="col-md-4">
-                    <h5>JV Climatización</h5>
-                    <p>Somos expertos en soluciones de climatización, proporcionando servicios profesionales de instalación y mantenimiento de aires acondicionados para el hogar y la industria.</p>
+                <div class="col-md-auto mb-4">
+                    <img src="assets/LOGO_JV_BLANCO_SIN_FONDO_.png" alt="Logo de JV" width="75" height="auto">
                 </div>
-
                 <!-- Sección de redes sociales -->
-                <div class="col-md-4">
-                    <h5>Síguenos</h5>
+                <div class="col-md-auto d-flex justify-content-center align-items-center">
                     <a href="https://www.facebook.com/jvclimatizacion/?locale=es_LA" class="text-white me-3" target="_blank"><i class="bi bi-facebook"></i></a>
                     <a href="https://www.instagram.com/jv_refrigeracion_?igsh=M2RiZjYza2IzczBj" class="text-white me-3" target="_blank"><i class="bi bi-instagram"></i></a>
                     <a href="#" class="text-white me-3" target="_blank"><i class="bi bi-linkedin"></i></a>
                     <a href="https://wa.me/5493513413411" target="_blank" class="text-white me-3"><i class="bi bi-whatsapp"></i></a>
                 </div>
-
-                <!-- Sección de enlaces útiles -->
-                <div class="col-md-4">
-                    <h5>Enlaces Útiles</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="#" class="text-white">Inicio</a></li>
-                        <li><a href="#info-section" class="text-white">Nosotros</a></li>
-                        <li><a href="#serv-section" class="text-white">Servicios</a></li>
-                        <li><a href="#contac-section" class="text-white">Contacto</a></li>
-                    </ul>
-                </div>
             </div>
-
             <!-- Fila para derechos reservados -->
             <div class="row mt-3">
                 <div class="col text-center">

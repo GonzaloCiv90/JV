@@ -95,11 +95,16 @@ main{
 #serv-section .col{
   font-size: 1rem;
   margin-top: 5rem;
-  color: #0F34AB;
+  color: white;
 }
 #serv-section .col i{
   color: white;
   font-size: 1.8rem;
+}
+
+.card-img-top {
+  height: 200px; /* Ajusta según necesites */
+  object-fit: cover; /* Para que la imagen se ajuste al contenedor */
 }
 
 #contac-section{
@@ -116,7 +121,7 @@ main{
   position: fixed;
   width: 60px;
   height: 60px;
-  bottom: 20px;
+  bottom: 75px;
   right: 20px;
   background-color:#007bff;
   color: #25d366;;
@@ -135,7 +140,7 @@ main{
   position: fixed;
   width: 60px;
   height: 60px;
-  bottom: 100px; /* Para que no se superponga con el botón de WhatsApp */
+  bottom: 150px; /* Para que no se superponga con el botón de WhatsApp */
   right: 20px;
   background-color:#007bff ;
   color: white;
