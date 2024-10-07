@@ -219,7 +219,7 @@
                             </div>
 
                             <!-- reCAPTCHA widget -->
-                            <div class="g-recaptcha mb-4" data-sitekey="6LckMlcqAAAAABW1qK86OHdN7_D6wn1E0my_qk-h"></div>
+                            <div class="g-recaptcha mb-4" data-sitekey="..."></div>
 
                             <div class="d-grid">
                                 <button type="submit" class="btn btn-primary mb-4">Enviar mensaje</button>
