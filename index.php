@@ -234,7 +234,7 @@
                     <div class="col-md-6">
                         <p><i class="fa-solid fa-location-dot"></i> Quebracho Herrado 11, Córdoba</p>
                         <div class="map-responsive">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d218008.87345929022!2d-64.29588313518705!3d-31.375845533211198!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x9432998f067e24d9%3A0x835ad28674ce15c7!2sjv%20refrigeracion!3m2!1d-31.3981294!2d-64.24178739999999!5e0!3m2!1ses!2sar!4v1728304215918!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d218008.87345929022!2d-64.29588313518705!3d-31.375845533211198!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x9432998f067e24d9%3A0x835ad28674ce15c7!2sjv%20refrigeracion!3m2!1d-31.3981294!2d-64.24178739999999!5e0!3m2!1ses!2sar!4v1728304215918!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                     </div>
                 </div>
