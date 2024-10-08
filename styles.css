@@ -121,7 +121,7 @@ main{
   position: relative;
   overflow: hidden;
   padding-bottom: 60%; /* 16:9 ratio */
-  height: 0;
+  height: 450px;
 }
 .map-responsive iframe {
   position: absolute;
