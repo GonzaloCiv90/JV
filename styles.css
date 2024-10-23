@@ -181,8 +181,7 @@ footer{
   }
 
   .overlay h1 {
-    text-justify: auto;
-    margin: 4rem;
+    text-align: center;
   }
   
   footer{
