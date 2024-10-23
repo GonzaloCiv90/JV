@@ -32,21 +32,16 @@ main{
 
 .navbar-toggler:hover {
   background-color: #0056b3;
-  /* Fondo más oscuro al hacer hover */
 }
 
 .navbar-toggler-icon {
   background-image: none;
-  /* Eliminar el icono por defecto */
 }
 
 .navbar-toggler-icon::before {
   content: '\2630';
-  /* Símbolo de hamburguesa */
   font-size: 1.5rem;
-  /* Tamaño del símbolo */
   color: #fff;
-  /* Color del símbolo */
 }
 
 .nav-item a{
@@ -199,7 +194,7 @@ footer{
 
 @media (min-width: 900px) {
   .google-map-link {
-    margin-left: 365px; /* Mueve el enlace hacia la derecha */
+    margin-left: 365px;
   }
 
   .overlay h1 {
