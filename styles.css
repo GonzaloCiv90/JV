@@ -25,8 +25,30 @@ main{
 }
 
 .navbar-toggler{
-  background-color: #0F34AB;
+  border-color: transparent;
+  background-color: #007bff;
+  border-radius: 5px;
 }
+
+.navbar-toggler:hover {
+  background-color: #0056b3;
+  /* Fondo más oscuro al hacer hover */
+}
+
+.navbar-toggler-icon {
+  background-image: none;
+  /* Eliminar el icono por defecto */
+}
+
+.navbar-toggler-icon::before {
+  content: '\2630';
+  /* Símbolo de hamburguesa */
+  font-size: 1.5rem;
+  /* Tamaño del símbolo */
+  color: #fff;
+  /* Color del símbolo */
+}
+
 .nav-item a{
   text-decoration: none;
   color: white;
